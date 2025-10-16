@@ -18,9 +18,6 @@ public class ConeRaycaster : MonoBehaviour
 
                 if (rigidbody != null)
                 {
-                    //rigidbody.AddForce(new Vector3(0, 500, 0));
-                    // Move the force direction on the click position
-                    
                     Vector3 forceDirection = (hitInfo.point - Camera.main.transform.position).normalized;
                     rigidbody.AddForce(forceDirection * 500);
                 }

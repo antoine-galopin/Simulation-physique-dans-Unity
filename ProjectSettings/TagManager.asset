@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Sphere
+  - Car
+  - Filet
   layers:
   - Default
   - TransparentFX
